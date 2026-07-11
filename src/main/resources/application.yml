@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: user-behavior-analysis
+  cache:
+    type: simple
+
+analysis:
+  engine:
+    type: STARROCKS
